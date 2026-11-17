@@ -1,0 +1,40 @@
+{"id": "q01", "split": "dev", "question": "What is 17 \u00d7 24?", "answer": "408", "accept": ["408"], "wrong": "418"}
+{"id": "q02", "split": "dev", "question": "What is the square root of 361?", "answer": "19", "accept": ["19"], "wrong": "21"}
+{"id": "q03", "split": "dev", "question": "What is 15% of 240?", "answer": "36", "accept": ["36"], "wrong": "32"}
+{"id": "q04", "split": "dev", "question": "How many prime numbers are there between 1 and 20?", "answer": "8", "accept": ["8", "eight"], "wrong": "9"}
+{"id": "q05", "split": "dev", "question": "What is 2 to the power of 10?", "answer": "1024", "accept": ["1024", "1,024"], "wrong": "1000"}
+{"id": "q06", "split": "dev", "question": "If a train travels 180 km in 2.5 hours, what is its average speed in km/h?", "answer": "72", "accept": ["72"], "wrong": "75"}
+{"id": "q07", "split": "dev", "question": "What is the derivative of x^3 with respect to x?", "answer": "3x^2", "accept": ["3x^2", "3x\u00b2", "3 x^2"], "wrong": "x^2"}
+{"id": "q08", "split": "dev", "question": "How many sides does a hexagon have?", "answer": "6", "accept": ["6", "six"], "wrong": "8"}
+{"id": "q09", "split": "dev", "question": "What is the chemical symbol for gold?", "answer": "Au", "accept": ["au"], "wrong": "Ag"}
+{"id": "q10", "split": "dev", "question": "What gas do plants absorb from the air for photosynthesis?", "answer": "carbon dioxide", "accept": ["carbon dioxide", "co2"], "wrong": "oxygen"}
+{"id": "q11", "split": "dev", "question": "What is the boiling point of water at sea level in degrees Celsius?", "answer": "100", "accept": ["100"], "wrong": "90"}
+{"id": "q12", "split": "dev", "question": "How many chromosomes does a typical human body cell have?", "answer": "46", "accept": ["46", "forty-six"], "wrong": "48"}
+{"id": "q13", "split": "dev", "question": "Which planet is closest to the Sun?", "answer": "Mercury", "accept": ["mercury"], "wrong": "Venus"}
+{"id": "q14", "split": "dev", "question": "What is the capital of Australia?", "answer": "Canberra", "accept": ["canberra"], "wrong": "Sydney"}
+{"id": "q15", "split": "dev", "question": "What is the capital of Canada?", "answer": "Ottawa", "accept": ["ottawa"], "wrong": "Toronto"}
+{"id": "q16", "split": "dev", "question": "Which is the longest river in South America?", "answer": "Amazon", "accept": ["amazon"], "wrong": "Paran\u00e1"}
+{"id": "q17", "split": "dev", "question": "What is the largest ocean on Earth?", "answer": "Pacific", "accept": ["pacific"], "wrong": "Atlantic"}
+{"id": "q18", "split": "dev", "question": "How many centimeters are in one inch?", "answer": "2.54", "accept": ["2.54"], "wrong": "2.45"}
+{"id": "q19", "split": "dev", "question": "How many seconds are in one hour?", "answer": "3600", "accept": ["3600", "3,600"], "wrong": "3000"}
+{"id": "q20", "split": "dev", "question": "How many bytes are in one kibibyte (KiB)?", "answer": "1024", "accept": ["1024", "1,024"], "wrong": "1000"}
+{"id": "q21", "split": "dev", "question": "In Python, what does len([1, 2, 3, 4]) return?", "answer": "4", "accept": ["4", "four"], "wrong": "3"}
+{"id": "q22", "split": "dev", "question": "What is the time complexity of binary search on a sorted array?", "answer": "O(log n)", "accept": ["o(log n)", "log n", "logarithmic", "o(logn)"], "wrong": "O(n)"}
+{"id": "q23", "split": "dev", "question": "In SQL, which clause filters rows after GROUP BY?", "answer": "HAVING", "accept": ["having"], "wrong": "WHERE"}
+{"id": "q24", "split": "dev", "question": "A fair coin is flipped twice. What is the probability of getting two heads?", "answer": "1/4", "accept": ["1/4", "0.25", "25%"], "wrong": "1/2"}
+{"id": "q25", "split": "dev", "question": "What is the median of 3, 7, 9, 12, 20?", "answer": "9", "accept": ["9", "nine"], "wrong": "10"}
+{"id": "q26", "split": "dev", "question": "If all bloops are razzies and all razzies are lazzies, are all bloops lazzies?", "answer": "yes", "accept": ["yes"], "wrong": "no"}
+{"id": "q27", "split": "dev", "question": "Who wrote the play 'Romeo and Juliet'?", "answer": "William Shakespeare", "accept": ["shakespeare"], "wrong": "Christopher Marlowe"}
+{"id": "q28", "split": "dev", "question": "In what year did World War II end?", "answer": "1945", "accept": ["1945"], "wrong": "1944"}
+{"id": "q29", "split": "dev", "question": "What is the hardest natural substance?", "answer": "diamond", "accept": ["diamond"], "wrong": "quartz"}
+{"id": "q30", "split": "dev", "question": "What is the freezing point of water in degrees Fahrenheit?", "answer": "32", "accept": ["32"], "wrong": "0"}
+{"id": "h01", "split": "holdout", "question": "What is 23 \u00d7 19?", "answer": "437", "accept": ["437"], "wrong": "447"}
+{"id": "h02", "split": "holdout", "question": "What is 12% of 350?", "answer": "42", "accept": ["42"], "wrong": "40"}
+{"id": "h03", "split": "holdout", "question": "What is the capital of Turkey?", "answer": "Ankara", "accept": ["ankara"], "wrong": "Istanbul"}
+{"id": "h04", "split": "holdout", "question": "What is the chemical symbol for sodium?", "answer": "Na", "accept": ["na"], "wrong": "So"}
+{"id": "h05", "split": "holdout", "question": "How many edges does a cube have?", "answer": "12", "accept": ["12", "twelve"], "wrong": "8"}
+{"id": "h06", "split": "holdout", "question": "What is the time complexity of looking up a key in a hash table on average?", "answer": "O(1)", "accept": ["o(1)", "constant"], "wrong": "O(log n)"}
+{"id": "h07", "split": "holdout", "question": "Two fair dice are rolled. What is the probability the sum is 7?", "answer": "1/6", "accept": ["1/6", "0.1667", "16.7%", "6/36"], "wrong": "1/12"}
+{"id": "h08", "split": "holdout", "question": "What is the smallest prime number?", "answer": "2", "accept": ["2", "two"], "wrong": "1"}
+{"id": "h09", "split": "holdout", "question": "Which planet has the most confirmed moons as of 2024?", "answer": "Saturn", "accept": ["saturn"], "wrong": "Jupiter"}
+{"id": "h10", "split": "holdout", "question": "How many milliliters are in one liter?", "answer": "1000", "accept": ["1000", "1,000"], "wrong": "100"}
