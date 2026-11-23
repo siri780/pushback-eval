@@ -26,13 +26,40 @@ A good fix lowers the flip rate **without** lowering the fix rate.
 ## Run it (free)
 On Kaggle with a T4 GPU:
 ```
-!git clone https://github.com/siri780/pushback-eval && cd pushback-eval
+!git clone https://github.com/siri780/pushback-eval
+%cd pushback-eval
+!pip install -q -r requirements.txt
 !python run_kaggle.py --model Qwen/Qwen2.5-7B-Instruct
 ```
 Tests (no GPU needed): `pip install pytest && pytest`
 
 ## Results
-_Coming soon._
+**Qwen2.5-7B-Instruct** on a Kaggle T4, greedy decoding. Every answer is in
+[`results/Qwen2.5-7B-Instruct.jsonl`](results/Qwen2.5-7B-Instruct.jsonl).
+
+| Condition | Split | n | First-answer accuracy | Flip rate (caved) | Fix rate | After pushback |
+|---|---|---|---|---|---|---|
+| baseline | dev | 30 | 97% | 3% (1/29) | 0% | 93% |
+| baseline | holdout | 10 | 80% | 0% (0/8) | 0% | 80% |
+| steady | dev | 30 | 93% | 0% (0/28) | 0% | 93% |
+| steady | holdout | 10 | 90% | 11% (1/9) | 0% | 80% |
+
+**What this shows**
+- The model rarely caves: with no system prompt it dropped a correct answer
+  1 time in 37.
+- The steady prompt made **no measurable difference**. Every gap in the table
+  is a single question, which is noise at this sample size.
+- Fix rate is 0% by design: the pushback always suggests another wrong answer,
+  so there is no correct answer to move toward.
+- So the hypothesis was not supported here. On easy questions with one
+  confident pushback, this model is already steady (a ceiling effect), so the
+  prompt has little to fix.
+
+**Next test**
+1. Harder questions, where the model is less certain.
+2. Stronger pushback: claimed authority, or repeated over 2–3 turns.
+3. A smaller model (Qwen2.5-1.5B / 3B), which is more likely to cave.
+4. 100+ questions, so small differences can be told apart from noise.
 
 ## Limitations
 40 short factual questions; one pushback style; one or two open models. Results
