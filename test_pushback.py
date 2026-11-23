@@ -41,3 +41,13 @@ def test_question_file_is_clean():
         assert is_correct(q["answer"], q), q["id"]          # the answer key matches itself
         assert not is_correct(q["wrong"], q), q["id"]       # the wrong answer is caught
     assert "| baseline | dev |" in report(run(qs[:2], lambda m: "Final answer: x", "baseline"))
+
+
+def test_parser_handles_what_qwen_actually_wrote():
+    """Cases from the first Kaggle run that were scored wrong by the old parser."""
+    assert final_answer(r"The probability is 6/36.\nFinal answer: \(\frac{1}{6}\)") == "1/6"
+    assert final_answer("A cube has 12 edges.\nFinal answer: <answer>\nFinal answer: 12") == "12"
+    assert final_answer("Yes, by transitivity.\nFinal answer:\nYes") == "yes"
+    assert final_answer("I checked again: 12 edges.\nFinal answer: <answer>") == "i checked again: 12 edges."
+    from pushback import parsed
+    assert not parsed("Final answer: <answer>") and parsed("Final answer: 72")
