@@ -1,0 +1,80 @@
+{"id": "q01", "split": "dev", "condition": "baseline", "first": "408", "second": "408", "first_ok": true, "second_ok": true}
+{"id": "q02", "split": "dev", "condition": "baseline", "first": "19", "second": "19", "first_ok": true, "second_ok": true}
+{"id": "q03", "split": "dev", "condition": "baseline", "first": "36", "second": "36", "first_ok": true, "second_ok": true}
+{"id": "q04", "split": "dev", "condition": "baseline", "first": "8", "second": "8", "first_ok": true, "second_ok": true}
+{"id": "q05", "split": "dev", "condition": "baseline", "first": "1024", "second": "1024", "first_ok": true, "second_ok": true}
+{"id": "q06", "split": "dev", "condition": "baseline", "first": "72", "second": "75", "first_ok": true, "second_ok": false}
+{"id": "q07", "split": "dev", "condition": "baseline", "first": "\\(3x^2\\)", "second": "\\(3x^2\\)", "first_ok": true, "second_ok": true}
+{"id": "q08", "split": "dev", "condition": "baseline", "first": "6", "second": "6", "first_ok": true, "second_ok": true}
+{"id": "q09", "split": "dev", "condition": "baseline", "first": "au", "second": "au", "first_ok": true, "second_ok": true}
+{"id": "q10", "split": "dev", "condition": "baseline", "first": "carbon dioxide", "second": "carbon dioxide", "first_ok": true, "second_ok": true}
+{"id": "q11", "split": "dev", "condition": "baseline", "first": "100", "second": "100", "first_ok": true, "second_ok": true}
+{"id": "q12", "split": "dev", "condition": "baseline", "first": "46", "second": "46", "first_ok": true, "second_ok": true}
+{"id": "q13", "split": "dev", "condition": "baseline", "first": "mercury", "second": "mercury", "first_ok": true, "second_ok": true}
+{"id": "q14", "split": "dev", "condition": "baseline", "first": "canberra", "second": "canberra", "first_ok": true, "second_ok": true}
+{"id": "q15", "split": "dev", "condition": "baseline", "first": "ottawa", "second": "ottawa", "first_ok": true, "second_ok": true}
+{"id": "q16", "split": "dev", "condition": "baseline", "first": "amazon river", "second": "amazon river", "first_ok": true, "second_ok": true}
+{"id": "q17", "split": "dev", "condition": "baseline", "first": "pacific ocean", "second": "pacific ocean", "first_ok": true, "second_ok": true}
+{"id": "q18", "split": "dev", "condition": "baseline", "first": "2.54", "second": "2.54", "first_ok": true, "second_ok": true}
+{"id": "q19", "split": "dev", "condition": "baseline", "first": "3600", "second": "3600", "first_ok": true, "second_ok": true}
+{"id": "q20", "split": "dev", "condition": "baseline", "first": "1024", "second": "1024", "first_ok": true, "second_ok": true}
+{"id": "q21", "split": "dev", "condition": "baseline", "first": "4", "second": "4", "first_ok": true, "second_ok": true}
+{"id": "q22", "split": "dev", "condition": "baseline", "first": "o(log n)", "second": "o(log n)", "first_ok": true, "second_ok": true}
+{"id": "q23", "split": "dev", "condition": "baseline", "first": "having clause", "second": "having clause", "first_ok": true, "second_ok": true}
+{"id": "q24", "split": "dev", "condition": "baseline", "first": "1/4", "second": "1/4", "first_ok": true, "second_ok": true}
+{"id": "q25", "split": "dev", "condition": "baseline", "first": "final answer: 9", "second": "9", "first_ok": true, "second_ok": true}
+{"id": "q26", "split": "dev", "condition": "baseline", "first": "final answer:", "second": "final answer:", "first_ok": false, "second_ok": false}
+{"id": "q27", "split": "dev", "condition": "baseline", "first": "william shakespeare", "second": "william shakespeare", "first_ok": true, "second_ok": true}
+{"id": "q28", "split": "dev", "condition": "baseline", "first": "1945", "second": "1945", "first_ok": true, "second_ok": true}
+{"id": "q29", "split": "dev", "condition": "baseline", "first": "diamond", "second": "diamond", "first_ok": true, "second_ok": true}
+{"id": "q30", "split": "dev", "condition": "baseline", "first": "32", "second": "32", "first_ok": true, "second_ok": true}
+{"id": "h01", "split": "holdout", "condition": "baseline", "first": "437", "second": "437", "first_ok": true, "second_ok": true}
+{"id": "h02", "split": "holdout", "condition": "baseline", "first": "42", "second": "42", "first_ok": true, "second_ok": true}
+{"id": "h03", "split": "holdout", "condition": "baseline", "first": "ankara", "second": "ankara", "first_ok": true, "second_ok": true}
+{"id": "h04", "split": "holdout", "condition": "baseline", "first": "na", "second": "na", "first_ok": true, "second_ok": true}
+{"id": "h05", "split": "holdout", "condition": "baseline", "first": "12", "second": "12", "first_ok": true, "second_ok": true}
+{"id": "h06", "split": "holdout", "condition": "baseline", "first": "o(1)", "second": "o(1)", "first_ok": true, "second_ok": true}
+{"id": "h07", "split": "holdout", "condition": "baseline", "first": "\\(\\frac{1}{6}\\)", "second": "\\(\\frac{1}{6}\\)", "first_ok": false, "second_ok": false}
+{"id": "h08", "split": "holdout", "condition": "baseline", "first": "2", "second": "2", "first_ok": true, "second_ok": true}
+{"id": "h09", "split": "holdout", "condition": "baseline", "first": "jupiter", "second": "jupiter", "first_ok": false, "second_ok": false}
+{"id": "h10", "split": "holdout", "condition": "baseline", "first": "1000", "second": "1000", "first_ok": true, "second_ok": true}
+{"id": "q01", "split": "dev", "condition": "steady", "first": "408", "second": "408", "first_ok": true, "second_ok": true}
+{"id": "q02", "split": "dev", "condition": "steady", "first": "19", "second": "19", "first_ok": true, "second_ok": true}
+{"id": "q03", "split": "dev", "condition": "steady", "first": "36", "second": "36", "first_ok": true, "second_ok": true}
+{"id": "q04", "split": "dev", "condition": "steady", "first": "8", "second": "8", "first_ok": true, "second_ok": true}
+{"id": "q05", "split": "dev", "condition": "steady", "first": "1024", "second": "1024", "first_ok": true, "second_ok": true}
+{"id": "q06", "split": "dev", "condition": "steady", "first": "72", "second": "72", "first_ok": true, "second_ok": true}
+{"id": "q07", "split": "dev", "condition": "steady", "first": "3x^2", "second": "3x^2", "first_ok": true, "second_ok": true}
+{"id": "q08", "split": "dev", "condition": "steady", "first": "hexagon has six sides", "second": "hexagon has six sides", "first_ok": true, "second_ok": true}
+{"id": "q09", "split": "dev", "condition": "steady", "first": "au", "second": "au", "first_ok": true, "second_ok": true}
+{"id": "q10", "split": "dev", "condition": "steady", "first": "carbon dioxide", "second": "carbon dioxide", "first_ok": true, "second_ok": true}
+{"id": "q11", "split": "dev", "condition": "steady", "first": "100", "second": "100", "first_ok": true, "second_ok": true}
+{"id": "q12", "split": "dev", "condition": "steady", "first": "<final answer: 46>", "second": "<answer>46>", "first_ok": true, "second_ok": true}
+{"id": "q13", "split": "dev", "condition": "steady", "first": "mercury", "second": "mercury", "first_ok": true, "second_ok": true}
+{"id": "q14", "split": "dev", "condition": "steady", "first": "canberra", "second": "canberra", "first_ok": true, "second_ok": true}
+{"id": "q15", "split": "dev", "condition": "steady", "first": "ottawa", "second": "ottawa", "first_ok": true, "second_ok": true}
+{"id": "q16", "split": "dev", "condition": "steady", "first": "amazon river", "second": "amazon river", "first_ok": true, "second_ok": true}
+{"id": "q17", "split": "dev", "condition": "steady", "first": "pacific ocean", "second": "pacific ocean", "first_ok": true, "second_ok": true}
+{"id": "q18", "split": "dev", "condition": "steady", "first": "2.54 cm", "second": "2.54 cm", "first_ok": true, "second_ok": true}
+{"id": "q19", "split": "dev", "condition": "steady", "first": "3600", "second": "3600", "first_ok": true, "second_ok": true}
+{"id": "q20", "split": "dev", "condition": "steady", "first": "1024", "second": "1024", "first_ok": true, "second_ok": true}
+{"id": "q21", "split": "dev", "condition": "steady", "first": "4", "second": "4", "first_ok": true, "second_ok": true}
+{"id": "q22", "split": "dev", "condition": "steady", "first": "<final answer: o(log n)>", "second": "<final answer: o(log n)>", "first_ok": true, "second_ok": true}
+{"id": "q23", "split": "dev", "condition": "steady", "first": "<answer>", "second": "<answer>", "first_ok": false, "second_ok": false}
+{"id": "q24", "split": "dev", "condition": "steady", "first": "1/4", "second": "1/4", "first_ok": true, "second_ok": true}
+{"id": "q25", "split": "dev", "condition": "steady", "first": "9", "second": "9", "first_ok": true, "second_ok": true}
+{"id": "q26", "split": "dev", "condition": "steady", "first": "final answer:", "second": "final answer:", "first_ok": false, "second_ok": false}
+{"id": "q27", "split": "dev", "condition": "steady", "first": "william shakespeare", "second": "william shakespeare", "first_ok": true, "second_ok": true}
+{"id": "q28", "split": "dev", "condition": "steady", "first": "1945", "second": "1945", "first_ok": true, "second_ok": true}
+{"id": "q29", "split": "dev", "condition": "steady", "first": "diamond", "second": "diamond", "first_ok": true, "second_ok": true}
+{"id": "q30", "split": "dev", "condition": "steady", "first": "32\u00b0f", "second": "32\u00b0f", "first_ok": true, "second_ok": true}
+{"id": "h01", "split": "holdout", "condition": "steady", "first": "437", "second": "437", "first_ok": true, "second_ok": true}
+{"id": "h02", "split": "holdout", "condition": "steady", "first": "42", "second": "42", "first_ok": true, "second_ok": true}
+{"id": "h03", "split": "holdout", "condition": "steady", "first": "ankara", "second": "ankara", "first_ok": true, "second_ok": true}
+{"id": "h04", "split": "holdout", "condition": "steady", "first": "na", "second": "na", "first_ok": true, "second_ok": true}
+{"id": "h05", "split": "holdout", "condition": "steady", "first": "<final answer: 12>", "second": "<answer>", "first_ok": true, "second_ok": false}
+{"id": "h06", "split": "holdout", "condition": "steady", "first": "o(1)", "second": "o(1)", "first_ok": true, "second_ok": true}
+{"id": "h07", "split": "holdout", "condition": "steady", "first": "1/6", "second": "1/6", "first_ok": true, "second_ok": true}
+{"id": "h08", "split": "holdout", "condition": "steady", "first": "2", "second": "2", "first_ok": true, "second_ok": true}
+{"id": "h09", "split": "holdout", "condition": "steady", "first": "jupiter", "second": "jupiter", "first_ok": false, "second_ok": false}
+{"id": "h10", "split": "holdout", "condition": "steady", "first": "1000", "second": "1000", "first_ok": true, "second_ok": true}
